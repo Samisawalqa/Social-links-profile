@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 30px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    text-align: center;
+    gap: 10px;
+
+    img {
+        width: 60px;
+        border-radius: 100%;
+    }
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.inter-name {
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+.inter-location {
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 10px;
+}
+
+.inter-job {
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 10px;
+}
+
+
+.inter-btn {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
